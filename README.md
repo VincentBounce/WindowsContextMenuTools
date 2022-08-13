@@ -20,9 +20,9 @@ Each [prompt here]:
 
 - on Windows 10 or 11, it opens on a terminal window
 
-- on Windows 11 only, if optional [Microsoft Windows Terminal] is installed, it opens prompts inside
+- on Windows 11 only, if optional [Microsoft Windows Terminal] is installed, it opens prompt inside
 
-- [Microsoft Windows Terminal]: https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701
+[Microsoft Windows Terminal]: https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701
 
 ### Command Prompt here
 
@@ -40,14 +40,24 @@ Limitation: can't apply on a folder if his path contains [ or ] characters.
 
 ### PowerShell 7 here
 
-Requires install of [PowerShell 7-x64 MSI]
+Requires install of [PowerShell 7 x64 MSI] into 'C:\Program Files\PowerShell\\'.
+
 **Doesn't** work with [PowerShell 7 from Microsoft Store] which is a limited version.
 
-[PowerShell 7-x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
+[PowerShell 7 x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 
-Let you run built-in latest PowerShell 7 located in Path Environment pwsh.exe.
+Let you run built-in latest PowerShell 7 located in Path Environment pwsh.exe, from any folder.
 
 Replaces PowerShell 7 context menu to sort it properly after Command Prompt and before List files.
+
+### Git here
+
+Requires install of [Git] into 'C:\Program Files\Git\\'.
+
+[Git]: <https://git-scm.com/download/win>
+Let you run Git Bash and Git GUI from any folder.
+
+Replaces Git context menu to have a clean cascade menu.
 
 ## Files and folder listing from folder
 
@@ -55,15 +65,13 @@ Works on folders, shortcuts, network
 
 Show all folders and files, hidden also
 
-Supports all Windows glyphs on 
+Supports all Windows glyphs on
 
 ### List in Clipboard
 
-List 
+List
 
 ### List in Notepad
-
-
 
 ## Hash
 
