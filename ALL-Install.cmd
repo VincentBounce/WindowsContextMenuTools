@@ -30,8 +30,8 @@ regedit /s List-in-Clipboard.reg
 regedit /s List-in-Notepad.reg
 regedit /s PowerShell-5-here.reg
 regedit /s PowerShell-5-ISE-here.reg
-regedit /s PowerShell-7-installed-separetely-here.reg
-regedit /s Windows-Terminal-installed-separetely-here.reg
+regedit /s PowerShell-7-here.reg
+regedit /s Windows-Terminal-here.reg
 
 cls & color F2 & echo Installed. [Space] to close.
 ::pause >nul

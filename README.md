@@ -1,10 +1,10 @@
 # Windows Context Menu Tools
 
-This repository is a bundle of best Windows shell File Explorer context menu tools organized in cascaded menus.
+This repository is a bundle of best ***Windows shell File Explorer context menu tools*** organized in cascaded menus.
 
-All tools are condensed in command-lines using only Windows 10-11 built-in features. These commands are written into Windows Registry.
+All tools are condensed in command-lines **using only Windows 10-11 built-in internal commands**. These commands are written into Windows Registry when you install these tools.
 
-> Tested on Microsoft Windows 10/11 64-bits.
+> Tested on Microsoft Windows 10/11 Pro 64-bits.
 
 ---
 
@@ -12,15 +12,15 @@ All tools are condensed in command-lines using only Windows 10-11 built-in featu
 
 Each ***prompt here tool***:
 
-- can be run normally or as Administrator (please note "run as Administrator" doesn't apply from folder's shortcuts `.lnk`)
+- can be run normally or *as Administrator* (please note *run as Administrator* doesn't apply from folder's shortcuts `.lnk`)
 
-- it applies from any folder on both File Explorer left and right panes.
+- applies from any folder on both File Explorer left and right panes.
 
 - doesn't apply from Windows Libraries
 
 - doesn't apply from drives like `C:\` or `D:\`
 
-- on Windows 10 or 11, it opens on a classic terminal window
+- on Windows 10 or 11, it opens in a *classic terminal window*
 
 - on Windows 11 only, if optional [Microsoft Windows Terminal] is installed, it opens prompt inside
 
@@ -36,29 +36,31 @@ Let you run built-in ***Command Prompt*** located in Path Environment `cmd.exe` 
 
 `PowerShell-5-here.reg`
 
-Let you run built-in ***Windows PowerShell*** located in Path Environment `powershell.exe`, from any folder. By default it's always PowerShell x64 or Windows 64-bits.
+Let you run built-in ***Windows PowerShell*** located in Path Environment `powershell.exe`, from any folder. By default it's always *Windows PowerShell x64* on Windows 64-bits.
 
 ### PowerShell 5 ISE here
 
 `PowerShell-5-ISE-here.reg`
 
-- Let you run built-in ***Windows PowerShell ISE*** located in Path Environment `powershell_ise.exe`, from any folder. By default it's always PowerShell x64 or Windows 64-bits.
+- Let you run built-in ***Windows PowerShell ISE*** located in Path Environment `powershell_ise.exe`, from any folder. By default it's always *Windows PowerShell ISE x64* or Windows 64-bits.
 
 - Limitation: can't apply on a folder if his path contains `[` or `]` characters.
 
-### PowerShell 7 here
+### ![logo][] PowerShell 7 here
 
-`PowerShell-7-installed-separetely-here.reg`
+`PowerShell-7-here.reg`
 
 - Let you run latest ***PowerShell 7*** located in Path Environment `pwsh.exe`, from any folder.
 
 - **Requires** install of [PowerShell 7 x64 MSI] into `C:\Program Files\PowerShell\`.
 
-- **Doesn't** work with [PowerShell 7 from Microsoft Store] which is a limited version.
+- **Doesn't** work with *PowerShell 7 from Microsoft Store* which is a limited version.
 
 [PowerShell 7 x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 
-- Replaces [PowerShell 7 default context menu] to get a clean cascaded menu and Admin run.
+[logo]: https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg
+
+- Replaces *PowerShell 7 default context menu* to get a clean cascaded menu and Admin run.
 
 ### Git Bash (and Git GUI) here
 
@@ -70,17 +72,17 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 [Git]: <https://git-scm.com/download/win>
 
-- Replaces [Git default context menu] to get a clean cascaded menu and Admin run.
+- Replaces *Git default context menu* to get a clean cascaded menu and Admin run.
 
 ### Windows Terminal here
 
-`Windows-Terminal-installed-separetely-here.reg`
+`Windows-Terminal-here.reg`
 
 - Let you run latest ***Microsoft Windows Terminal*** located in Path Environment `wt.exe`, from any folder.
 
 - **Requires** install of [Microsoft Windows Terminal] directly from Microsoft Store.
 
-- Replaces [Windows Terminal default context menu] to get a clean cascaded menu and Admin run.
+- Replaces *Windows Terminal default context menu* to get a clean cascaded menu and Admin run.
 
 ---
 
@@ -88,7 +90,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 Features:
 
-- Works on folders, shortcuts, network
+- Works on folders, shortcuts, network locations
 
 - Show all folders and files, hidden also
 
@@ -126,7 +128,7 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 - Run `ALL-Install.cmd` to install all features.
 - You can delete the .reg files corresponding to the features you don't want, so `ALL-Install.cmd` will ignore it.
-- Run a .reg if you want to install just one.
+- Just run a `.reg` if you want to install a specific one.
 - You can run install as many times as you want, it always delete previous installation.
 
 ### Uninstall
