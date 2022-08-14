@@ -46,7 +46,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Limitation: can't apply on a folder if his path contains `[` or `]` characters.
 
-### ![logo][] PowerShell 7 here
+### ![logo][] PowerShell 7 here ⚠*requires third party application*
 
 `PowerShell-7-here.reg`
 
@@ -62,7 +62,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Replaces *PowerShell 7 default context menu* to get a clean cascaded menu and Admin run.
 
-### Git Bash (and Git GUI) here
+### Git Bash (and Git GUI) here ⚠*requires third party application*
 
 `Git-here.reg`
 
@@ -74,7 +74,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Replaces *Git default context menu* to get a clean cascaded menu and Admin run.
 
-### Windows Terminal here
+### Windows Terminal here ⚠*requires third party application*
 
 `Windows-Terminal-here.reg`
 
