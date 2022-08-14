@@ -4,7 +4,7 @@ This repository is a bundle of best Windows shell File Explorer context menu too
 
 All tools are condensed in CLI using only Windows 10-11 built-in features. These commands are installed into Windows Registry.
 
-Designed for Microsoft Windows 10 and 11 File Explorer.
+Tested on Microsoft Windows 10/11 64-bits.
 
 ## Prompts here
 
@@ -22,19 +22,19 @@ Each [prompt here]:
 
 - on Windows 11 only, if optional [Microsoft Windows Terminal] is installed, it opens prompt inside
 
-[Microsoft Windows Terminal]: https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701
+[Microsoft Windows Terminal]: https://www.microsoft.com/store/productId/9N0DX20HK701
 
 ### Command Prompt here
 
-Let you run CMD.exe from any folder
+Let you run built-in Command Prompt located in Path Environment 'CMD.exe' from any folder.
 
 ### PowerShell 5 here
 
-Let you run built-in Windows PowerShell located in Path Environment powershell.exe. By default it's always PowerShell x64 or Windows 64-bits.
+Let you run built-in Windows PowerShell located in Path Environment 'powershell.exe', from any folder. By default it's always PowerShell x64 or Windows 64-bits.
 
 ### PowerShell 5 ISE here
 
-Let you run built-in Windows PowerShell ISE located in Path Environment powershell_ise.exe. By default it's always PowerShell x64 or Windows 64-bits.
+Let you run built-in Windows PowerShell ISE located in Path Environment 'powershell_ise.exe', from any folder. By default it's always PowerShell x64 or Windows 64-bits.
 
 Limitation: can't apply on a folder if his path contains [ or ] characters.
 
@@ -46,18 +46,28 @@ Requires install of [PowerShell 7 x64 MSI] into 'C:\Program Files\PowerShell\\'.
 
 [PowerShell 7 x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 
-Let you run built-in latest PowerShell 7 located in Path Environment pwsh.exe, from any folder.
+Let you run latest PowerShell 7 located in Path Environment 'pwsh.exe', from any folder.
 
-Replaces PowerShell 7 context menu to sort it properly after Command Prompt and before List files.
+Replaces [PowerShell 7 default context menu] to have a clean cascaded menu and Admin run.
 
-### Git here
+### Git Bash (and Git GUI) here
 
 Requires install of [Git] into 'C:\Program Files\Git\\'.
 
 [Git]: <https://git-scm.com/download/win>
 Let you run Git Bash and Git GUI from any folder.
 
-Replaces Git context menu to have a clean cascade menu.
+Replaces [Git default context menu] to have a clean cascaded menu and Admin run.
+
+### Windows Terminal here
+
+Requires install of [Microsoft Windows Terminal] directly from Microsoft Store.
+
+Let you run latest Windows Terminal located in Path Environment 'wt.exe', from any folder.
+
+Replaces [Windows Terminal default context menu] to have a clean cascaded menu and Admin run.
+
+[Microsoft Windows Terminal]: https://www.microsoft.com/store/productId/9N0DX20HK701
 
 ## Files and folders listing from folder
 
@@ -71,9 +81,11 @@ Features:
 
 ### List in Clipboard
 
-List
+Lists folders/files of any folder, and copy it to the Clipboard.
 
 ### List in Notepad
+
+Lists folders/files of any folder and displays it in a temporary Notepad file that disappear as soon as it is closed.
 
 ## Hash
 
@@ -84,7 +96,12 @@ Applies on all selected files in the File Explorer right pane.
 Install:
 
 - Run 'ALL-Install.cmd' to install all features.
-- Delete .reg files corresponding to the features you don't want
-- Run a .reg if you want to install just one
-- You can run install as many times as you want, it always delete previous install
+- You can delete the .reg files corresponding to the features you don't want, so 'ALL-Install.cmd' will ignore it.
+- Run a .reg if you want to install just one.
+- You can run install as many times as you want, it always delete previous installation.
 
+Uninstall:
+
+- Just run 'ALL-Uninstall.reg'
+- To remove the default 'Open in Terminal' setup by Windows Terminal, run 'Windows-Terminal-[remove-default-menu-need-restart].reg'
+- To restore it, run 'Windows-Terminal-[restore-default-menu-need-restart].reg'
