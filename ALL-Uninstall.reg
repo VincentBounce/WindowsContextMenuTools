@@ -1,9 +1,13 @@
 Windows Registry Editor Version 5.00
 
+; WindowsContextMenuTools created by VincentBounce
+
 [-HKEY_CLASSES_ROOT\Directory\shell\run200CommandPrompt]
 [-HKEY_CLASSES_ROOT\Directory\shell\run210PowerShell5]
 [-HKEY_CLASSES_ROOT\Directory\shell\run220PowerShell5ISE]
 [-HKEY_CLASSES_ROOT\Directory\shell\run230PowerShell7]
+[-HKEY_CLASSES_ROOT\Directory\shell\run240Git]
+[-HKEY_CLASSES_ROOT\Directory\shell\run250WindowsTerminal]
 [-HKEY_CLASSES_ROOT\Directory\shell\run300FileListClipboard]
 [-HKEY_CLASSES_ROOT\Directory\shell\run310FileListNotepad]
 
@@ -11,5 +15,9 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Drive\shell\run210PowerShell5]
 [-HKEY_CLASSES_ROOT\Drive\shell\run220PowerShell5ISE]
 [-HKEY_CLASSES_ROOT\Drive\shell\run230PowerShell7]
+[-HKEY_CLASSES_ROOT\Drive\shell\run240Git]
+[-HKEY_CLASSES_ROOT\Drive\shell\run250WindowsTerminal]
 [-HKEY_CLASSES_ROOT\Drive\shell\run300FileListClipboard]
 [-HKEY_CLASSES_ROOT\Drive\shell\run310FileListNotepad]
+
+[-HKEY_CLASSES_ROOT\*\shell\GetFileHash]

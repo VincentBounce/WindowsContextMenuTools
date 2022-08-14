@@ -1,6 +1,6 @@
 # Windows Context Menu Tools
 
-This repository is a bundle of best Windows shell File Explorer context menu tools.
+This repository is a bundle of best Windows shell File Explorer context menu tools organized in cascaded menus.
 
 All tools are condensed in CLI using only Windows 10-11 built-in features. These commands are installed into Windows Registry.
 
