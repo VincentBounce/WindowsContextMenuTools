@@ -2,6 +2,7 @@ Windows Registry Editor Version 5.00
 
 ; WindowsContextMenuTools created by VincentBounce
 
+;removing  commands applied from folders
 [-HKEY_CLASSES_ROOT\Directory\shell\run200CommandPrompt]
 [-HKEY_CLASSES_ROOT\Directory\shell\run210PowerShell5]
 [-HKEY_CLASSES_ROOT\Directory\shell\run220PowerShell5ISE]
@@ -11,6 +12,7 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Directory\shell\run300FileListClipboard]
 [-HKEY_CLASSES_ROOT\Directory\shell\run310FileListNotepad]
 
+;removing commands applied from drives (if needed)
 [-HKEY_CLASSES_ROOT\Drive\shell\run200CommandPrompt]
 [-HKEY_CLASSES_ROOT\Drive\shell\run210PowerShell5]
 [-HKEY_CLASSES_ROOT\Drive\shell\run220PowerShell5ISE]
@@ -20,4 +22,9 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Drive\shell\run300FileListClipboard]
 [-HKEY_CLASSES_ROOT\Drive\shell\run310FileListNotepad]
 
+;removing Hash commands
 [-HKEY_CLASSES_ROOT\*\shell\GetFileHash]
+
+;restoring 'Open in Terminal' command
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{9F156763-7844-4DC4-B2B1-901F640F5155}"=-

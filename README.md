@@ -10,15 +10,15 @@ Designed for Microsoft Windows 10 and 11 File Explorer.
 
 Each [prompt here]:
 
-- can be run normally or as Administrator
+- can be run normally or as Administrator (please note "run as Administrator" doesn't apply from folder's shortcuts .lnk)
 
-- it applies on all folders on both File Explorer left and right panes.
+- it applies from any folder on both File Explorer left and right panes.
 
-- doesn't apply Windows Libraries
+- doesn't apply from Windows Libraries
 
-- doesn't apply directly on drives like C:\ or D:\
+- doesn't apply from drives like C:\ or D:\
 
-- on Windows 10 or 11, it opens on a terminal window
+- on Windows 10 or 11, it opens on a classic terminal window
 
 - on Windows 11 only, if optional [Microsoft Windows Terminal] is installed, it opens prompt inside
 
@@ -59,13 +59,15 @@ Let you run Git Bash and Git GUI from any folder.
 
 Replaces Git context menu to have a clean cascade menu.
 
-## Files and folder listing from folder
+## Files and folders listing from folder
 
-Works on folders, shortcuts, network
+Features:
 
-Show all folders and files, hidden also
+- Works on folders, shortcuts, network
 
-Supports all Windows glyphs on
+- Show all folders and files, hidden also
+
+- Supports all Windows glyphs.
 
 ### List in Clipboard
 
@@ -76,3 +78,13 @@ List
 ## Hash
 
 Applies on all selected files in the File Explorer right pane.
+
+## Install
+
+Install:
+
+- Run 'ALL-Install.cmd' to install all features.
+- Delete .reg files corresponding to the features you don't want
+- Run a .reg if you want to install just one
+- You can run install as many times as you want, it always delete previous install
+

@@ -10,7 +10,7 @@ call :isAdmin
 if %errorlevel% == 0 (
     goto :run
 ) else (
-    color F9 & echo Requesting administrative privileges...
+    color F9 & echo Requesting Administrator privileges...
     goto :UACPrompt
 )
 exit /b
@@ -23,18 +23,18 @@ exit /b
 color F9 & echo Install...
 cd "%SCRIPT_PATH%"
 
-regedit /s CommandPrompt.reg
+regedit /s CommandPrompt-here.reg
 regedit /s GetHash.reg
 regedit /s Git-here.reg
 regedit /s List-in-Clipboard.reg
 regedit /s List-in-Notepad.reg
-regedit /s PowerShell-5-built-in-Windows.reg
-regedit /s PowerShell-5-ISE-built-in-Windows.reg
-regedit /s PowerShell-7-installed-separetely.reg
-regedit /s Windows-Terminal.reg
+regedit /s PowerShell-5-here.reg
+regedit /s PowerShell-5-ISE-here.reg
+regedit /s PowerShell-7-installed-separetely-here.reg
+regedit /s Windows-Terminal-installed-separetely-here.reg
 
-cls & color F2 & echo Installed! [Space] to close.
-pause >nul
+cls & color F2 & echo Installed. [Space] to close.
+::pause >nul
 
 ::<BATCH ADMIN SCRIPT ABOVE>
 exit /b
