@@ -8,7 +8,7 @@ All tools are condensed in command-lines **using only Windows 10-11 built-in int
 
 ---
 
-## Prompts here
+## All prompts here
 
 Each ***prompt here tool***:
 
@@ -24,7 +24,7 @@ Each ***prompt here tool***:
 
 - on Windows 11 only, if optional [Windows Terminal] is installed, it opens prompt inside
 
-### Command Prompt here
+## ![commandprompt-icon] Command Prompt here
 
 `CommandPrompt-here.reg`
 
@@ -32,7 +32,7 @@ Let you run built-in ***Command Prompt*** located in Path Environment `cmd.exe` 
 
 💿 To install this tool separately, just run `CommandPrompt-here.reg`
 
-### ![powershell5-icon] PowerShell 5 here
+## ![powershell5-icon] PowerShell 5 here
 
 `PowerShell5-here.reg`
 
@@ -40,7 +40,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 💿 To install this tool separately, just run `PowerShell5-here.reg`
 
-### ![powershell5-ise-icon] PowerShell 5 ISE here
+## ![powershell5-ise-icon] PowerShell 5 ISE here
 
 `PowerShell5-ISE-here.reg`
 
@@ -50,13 +50,13 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 💿 To install this tool separately, just run `PowerShell5-ISE-here.reg`
 
-### ![powershell7-icon] PowerShell 7 here ⚠*requires third party application*
+## ![powershell7-icon] PowerShell 7 here
 
 `PowerShell7-here.reg`
 
 - Let you run latest ***PowerShell 7*** located in Path Environment `pwsh.exe`, from any folder.
 
-- **Requires** install of [PowerShell 7 x64 MSI] into `C:\Program Files\PowerShell\`.
+- ⚠**Requires** install of [PowerShell 7 x64 MSI] into `C:\Program Files\PowerShell\`.
 
 - **Doesn't** work with *PowerShell 7 from Microsoft Store* which is a limited version.
 
@@ -66,13 +66,13 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 [PowerShell 7 x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 
-### ![gitbash-icon] Git Bash (and Git GUI) here ⚠*requires third party application*
+## ![gitbash-icon] Git Bash (and Git GUI) here
 
 `Git-here.reg`
 
 - Let you run ***Git Bash*** and ***Git GUI*** from any folder.
 
-- **Requires** [install of Git] into `C:\Program Files\Git\`.
+- ⚠**Requires** [install of Git] into `C:\Program Files\Git\`.
 
 [install of Git]: <https://git-scm.com/download/win>
 
@@ -80,13 +80,13 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 💿 To install this tool separately, just run `Git-here.reg`
 
-### ![windowsterminal-icon] Windows Terminal here ⚠*requires third party application*
+## ![windowsterminal-icon] Windows Terminal here
 
 `WindowsTerminal-here.reg`
 
 - Let you run latest ***Windows Terminal*** located in Path Environment `wt.exe`, from any folder.
 
-- **Requires** install of [Windows Terminal] directly from Microsoft Store.
+- ⚠**Requires** install of [Windows Terminal] directly from Microsoft Store.
 
 - *Windows Terminal default context menu* can be disabled, to get both clean cascaded menu and *run as Admin feature* instead.
 
@@ -109,7 +109,7 @@ Features:
 
 - Supports all Windows glyphs.
 
-### List in Clipboard
+## ![clipboard-icon] List in Clipboard
 
 `List-in-Clipboard.reg`
 
@@ -117,7 +117,7 @@ Lists folders/files of any folder, and copy it to the Clipboard.
 
 💿 To install this tool separately, just run `List-in-Clipboard.reg`
 
-### List in Notepad
+## ![notepad-icon] List in Notepad
 
 `List-in-Notepad.reg`
 
@@ -127,7 +127,7 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 ---
 
-## Hash
+## ![hash-icon] Hash
 
 `Get-FileHash.reg`
 
@@ -141,7 +141,7 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 ## How to install and uninstall all tools
 
-### 💿 Install
+### 💿 Install all tools
 
 `ALL-Install.cmd`
 
@@ -155,7 +155,7 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 - To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `Windows-Terminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
 
-### 🚫 Uninstall
+### 🚫 Uninstall all tools
 
 `ALL-Uninstall.reg`
 
@@ -167,6 +167,12 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 [files-listing-icon]: /readme-images/files-48.png
 
+[clipboard-icon]: /readme-images/Clipobard-h32px.png
+
+[notepad-icon]: /readme-images/Notepad-h32px.png
+
+[commandprompt-icon]: /readme-images/CommandPrompt-h32px.png
+
 [powershell5-icon]: /readme-images/PowerShell5-h32px.svg
 
 [powershell5-ise-icon]: /readme-images/PowerShell5-ISE-h32px.png
@@ -177,6 +183,6 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 [windowsterminal-icon]: /readme-images/WindowsTerminal-h32px.svg
 
-[logo-test]: https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg
+[hash-icon]: /readme-images/Hash-h32px.png
 
 [Windows Terminal]: https://www.microsoft.com/store/productId/9N0DX20HK701
