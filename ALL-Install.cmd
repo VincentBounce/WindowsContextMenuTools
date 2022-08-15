@@ -24,14 +24,15 @@ color F9 & echo Install...
 cd "%SCRIPT_PATH%"
 
 regedit /s CommandPrompt-here.reg
-regedit /s GetHash.reg
+regedit /s Get-fileHash.reg
 regedit /s Git-here.reg
 regedit /s List-in-Clipboard.reg
 regedit /s List-in-Notepad.reg
-regedit /s PowerShell-5-here.reg
-regedit /s PowerShell-5-ISE-here.reg
-regedit /s PowerShell-7-here.reg
-regedit /s Windows-Terminal-here.reg
+regedit /s PowerShell5-here.reg
+regedit /s PowerShell5-ISE-here.reg
+regedit /s PowerShell7-here.reg
+regedit /s WindowsTerminal-here.reg
+copy WindowsTerminal.ico %SystemRoot%\System32\
 
 cls & color F2 & echo Installed. [Space] to close.
 ::pause >nul
