@@ -1,6 +1,6 @@
 # Windows Context Menu Tools
 
-This repository is a bundle of best ***Windows shell File Explorer context menu tools*** organized in cascaded menus.
+This repository is a bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
 
 All tools are condensed in command-lines **using only Windows 10-11 built-in internal commands**. These commands are written into Windows Registry when you install these tools.
 
@@ -12,17 +12,17 @@ All tools are condensed in command-lines **using only Windows 10-11 built-in int
 
 Each ***prompt here tool***:
 
-- can be run normally or *as Administrator* (please note *run as Administrator* doesn't apply from folder's shortcuts `.lnk`)
+- Opens from any **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
 
-- applies from any folder on both File Explorer left and right panes.
+- Can be run as user or *as Administrator* (please note *run as Administrator* doesn't apply from folder's shortcuts `.lnk`)
 
-- doesn't apply from Windows Libraries
+- Doesn't open from *Windows Libraries*
 
-- doesn't apply from drives like `C:\` or `D:\`
+- Doesn't open from *drives* like `C:\` or `D:\`
 
-- on Windows 10 or 11, it opens in a *classic terminal window*
+- On Windows 10 or 11, it opens in a *classic terminal window*
 
-- on Windows 11 only, if optional [Windows Terminal] is installed, it opens prompt inside
+- On Windows 11 only, if optional [Windows Terminal] is installed, it opens prompt inside
 
 ## ![commandprompt-icon] Command Prompt here
 
@@ -58,7 +58,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - ⚠**Requires** install of [PowerShell 7 x64 MSI] into `C:\Program Files\PowerShell\`.
 
-- **Doesn't** work with *PowerShell 7 from Microsoft Store* which is a limited version.
+- ⚠**Doesn't work** with ***PowerShell 7 from Microsoft Store*** which is a limited version. Better use [PowerShell 7 x64 MSI] version.
 
 - Replaces *PowerShell 7 default context menu* to get a clean cascaded menu and *run as Admin feature*.
 
@@ -94,26 +94,26 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Run `WindowsTerminal-here.reg`
 - Copy `WindowsTerminal.ico` to `C:\Windows\System32\` (this is necessary because *Windows Terminal* icon path always change with auto-updates provided by *Microsoft Store*).
-- To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `Windows-Terminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
-- To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `Windows-Terminal-[restore-default-menu-need-restart].reg`, then logoff/logon.
+- To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
+- To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[restore-default-menu-need-restart].reg`, then logoff/logon.
 
 ---
 
 ## ![files-listing-icon] Files and folders listing from folder
 
-Features:
+Global features:
 
-- Works on folders, shortcuts, network locations
+- Opens from any **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
 
-- Show all folders and files, hidden also
+- Reads all folders and files including hidden ones.
 
-- Supports all Windows glyphs.
+- Supports all Windows glyphs in all Windows languages/region versions.
 
 ## ![clipboard-icon] List in Clipboard
 
 `List-in-Clipboard.reg`
 
-Lists folders/files of any folder, and copy it to the Clipboard.
+Lists folders/files of any folder, and copy the list to the Clipboard.
 
 💿 To install this tool separately, just run `List-in-Clipboard.reg`
 
@@ -121,7 +121,7 @@ Lists folders/files of any folder, and copy it to the Clipboard.
 
 `List-in-Notepad.reg`
 
-Lists folders/files of any folder and displays it in a temporary Notepad file that disappear as soon as it is closed.
+Lists folders/files of any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
 
 💿 To install this tool separately, just run `List-in-Notepad.reg`
 
@@ -131,9 +131,9 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 `Get-FileHash.reg`
 
-- Display in a terminal window on the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MACTripleDES` `MD5` `RIPEMD-160` for any file(s) selected in File Explorer.
+- Display in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MACTripleDES` `MD5` `RIPEMD-160` for any file(s) selected in File Explorer.
 
-- Applies on all selected files, in the File Explorer right pane, with right click on selection -> Get file Hash.
+- Applies on all selected files, in the File Explorer right pane. To use it, right click on selection ➜ Get file Hash.
 
 💿 To install this tool separately, just run `Get-fileHash.reg`
 
@@ -143,25 +143,23 @@ Lists folders/files of any folder and displays it in a temporary Notepad file th
 
 ### 💿 Install all tools
 
-`ALL-Install.cmd`
+- Click *Code* green button above ➜ *Download ZIP*, then extract `WindowsContextMenuTools-main.zip`.
 
 - **Run `ALL-Install.cmd` to install all tools automatically.**
 
-- You can optionally delete the files corresponding to the tools you don't want, so `ALL-Install.cmd` will ignore it.
+- You can optionally delete the files corresponding to the tools you don't want, so `ALL-Install.cmd` will ignore those tools.
 
 - Just run a `.reg` if you want to install a specific one.
 
 - You can run install as many times as you want, it always delete previous installation.
 
-- To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `Windows-Terminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
+- To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
 
 ### 🚫 Uninstall all tools
 
-`ALL-Uninstall.reg`
-
 - **Run `ALL-Uninstall.reg` to remove all tools automatically.**
 
-- To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `Windows-Terminal-[restore-default-menu-need-restart].reg`, then logoff/logon.
+- To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[restore-default-menu-need-restart].reg`, then logoff/logon.
 
 - Optionally, you can delete Windows Terminal icon located here `C:\Windows\System32\WindowsTerminal.ico`
 
