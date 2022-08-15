@@ -163,7 +163,7 @@ Lists folders/files of any folder and displays the list in a temporary Notepad f
 
 - Optionally, you can delete Windows Terminal icon located here `C:\Windows\System32\WindowsTerminal.ico`
 
-[files-listing-icon]: /readme-images/files-48.png
+[files-listing-icon]: /readme-images/files-h42px.png
 
 [clipboard-icon]: /readme-images/Clipobard-h32px.png
 
