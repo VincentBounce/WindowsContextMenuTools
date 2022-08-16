@@ -16,7 +16,7 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 
 Global features:
 
-- Opens from any **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
+- Lists folders and files from any directory **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
 
 - Reads all folders and files including hidden ones.
 
@@ -26,7 +26,7 @@ Global features:
 
 `List-in-Clipboard.reg`
 
-Lists folders/files of any folder, and copy the list to the Clipboard.
+Lists folders/files contained in any folder, and copy the list to the Clipboard.
 
 💿 To install this tool separately, just run `List-in-Clipboard.reg`
 
@@ -34,7 +34,7 @@ Lists folders/files of any folder, and copy the list to the Clipboard.
 
 `List-in-Notepad.reg`
 
-Lists folders/files of any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
+Lists folders/files contained in any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
 
 💿 To install this tool separately, just run `List-in-Notepad.reg`
 
