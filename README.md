@@ -2,7 +2,9 @@
 
 This repository is a bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
 
-All tools are condensed in command-lines **using only Windows 10-11 built-in internal commands**. These commands are written into Windows Registry when you install these tools.
+- All tools are condensed in command-lines **using only Windows 10-11 built-in internal commands**.
+- These commands are written into Windows Registry when you install these tools.
+- No `.exe` nor `.msi` nor `.inf` to install it.
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
