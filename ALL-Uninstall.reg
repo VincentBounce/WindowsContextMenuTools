@@ -3,24 +3,24 @@ Windows Registry Editor Version 5.00
 ; WindowsContextMenuTools created by VincentBounce
 
 ;removing  commands applied from folders
+[-HKEY_CLASSES_ROOT\Directory\shell\run100FileListClipboard]
+[-HKEY_CLASSES_ROOT\Directory\shell\run110FileListNotepad]
 [-HKEY_CLASSES_ROOT\Directory\shell\run200CommandPrompt]
 [-HKEY_CLASSES_ROOT\Directory\shell\run210PowerShell5]
 [-HKEY_CLASSES_ROOT\Directory\shell\run220PowerShell5ISE]
 [-HKEY_CLASSES_ROOT\Directory\shell\run230PowerShell7]
 [-HKEY_CLASSES_ROOT\Directory\shell\run240Git]
 [-HKEY_CLASSES_ROOT\Directory\shell\run250WindowsTerminal]
-[-HKEY_CLASSES_ROOT\Directory\shell\run300FileListClipboard]
-[-HKEY_CLASSES_ROOT\Directory\shell\run310FileListNotepad]
 
 ;removing commands applied from drives (if needed)
+[-HKEY_CLASSES_ROOT\Drive\shell\run100FileListClipboard]
+[-HKEY_CLASSES_ROOT\Drive\shell\run110FileListNotepad]
 [-HKEY_CLASSES_ROOT\Drive\shell\run200CommandPrompt]
 [-HKEY_CLASSES_ROOT\Drive\shell\run210PowerShell5]
 [-HKEY_CLASSES_ROOT\Drive\shell\run220PowerShell5ISE]
 [-HKEY_CLASSES_ROOT\Drive\shell\run230PowerShell7]
 [-HKEY_CLASSES_ROOT\Drive\shell\run240Git]
 [-HKEY_CLASSES_ROOT\Drive\shell\run250WindowsTerminal]
-[-HKEY_CLASSES_ROOT\Drive\shell\run300FileListClipboard]
-[-HKEY_CLASSES_ROOT\Drive\shell\run310FileListNotepad]
 
 ;removing Hash commands
 [-HKEY_CLASSES_ROOT\*\shell\GetFileHash]

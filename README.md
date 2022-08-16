@@ -8,6 +8,34 @@ All tools are condensed in command-lines **using only Windows 10-11 built-in int
 
 ---
 
+## ![files-listing-icon] Files and folders listing from folder
+
+Global features:
+
+- Opens from any **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
+
+- Reads all folders and files including hidden ones.
+
+- Supports all Windows glyphs in all Windows languages/region versions.
+
+## ![clipboard-icon] List in Clipboard
+
+`List-in-Clipboard.reg`
+
+Lists folders/files of any folder, and copy the list to the Clipboard.
+
+💿 To install this tool separately, just run `List-in-Clipboard.reg`
+
+## ![notepad-icon] List in Notepad
+
+`List-in-Notepad.reg`
+
+Lists folders/files of any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
+
+💿 To install this tool separately, just run `List-in-Notepad.reg`
+
+---
+
 ## All prompts here
 
 Each ***prompt here tool***:
@@ -96,34 +124,6 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 - Copy `WindowsTerminal.ico` to `C:\Windows\System32\` (this is necessary because *Windows Terminal* icon path always change with auto-updates provided by *Microsoft Store*).
 - To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
 - To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[restore-default-menu-need-restart].reg`, then logoff/logon.
-
----
-
-## ![files-listing-icon] Files and folders listing from folder
-
-Global features:
-
-- Opens from any **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
-
-- Reads all folders and files including hidden ones.
-
-- Supports all Windows glyphs in all Windows languages/region versions.
-
-## ![clipboard-icon] List in Clipboard
-
-`List-in-Clipboard.reg`
-
-Lists folders/files of any folder, and copy the list to the Clipboard.
-
-💿 To install this tool separately, just run `List-in-Clipboard.reg`
-
-## ![notepad-icon] List in Notepad
-
-`List-in-Notepad.reg`
-
-Lists folders/files of any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
-
-💿 To install this tool separately, just run `List-in-Notepad.reg`
 
 ---
 
