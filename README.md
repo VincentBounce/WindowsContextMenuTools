@@ -141,7 +141,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 `Get-FileHash.reg`
 
-- Display in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MACTripleDES` `MD5` `RIPEMD-160` for any file(s) selected in File Explorer.
+- Display in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in File Explorer.
 
 - Applies on all selected files, in the File Explorer right pane. To use it, right click on selection ➜ *Get file Hash*.
 
@@ -153,9 +153,9 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 `Wipe-free-space.reg`
 
-- Secures all your external drives before giving them, by ensuring that all deleted data has been overwrited. To do this, the Windows built-in program `cipher.exe` write successively 3 big files to fill entire empty space, in a temporary folder like `D:\EFSTMPWP\filE6A3.tmp`
+- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. To do this, the Windows built-in program `cipher.exe` write successively 3 big files to fill entire empty space, in a temporary folder like `D:\EFSTMPWP\filE6A3.tmp`
 
-- Avoids to erase the data you want to keep, by formatting.
+- Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the data you want to keep.
 
 - Proceeds 3 writting sequences: a first one only with `0`, a second one only with `1`, and a third one with random digits.
 
