@@ -32,6 +32,7 @@ regedit /s PowerShell5-here.reg
 regedit /s PowerShell5-ISE-here.reg
 regedit /s PowerShell7-here.reg
 regedit /s WindowsTerminal-here.reg
+regedit /s Wipe-free-space.reg
 copy WindowsTerminal.ico %SystemRoot%\System32\
 
 cls & color F2 & echo Installed. [Space] to close.

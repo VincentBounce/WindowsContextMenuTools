@@ -7,12 +7,13 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 - All tools are condensed in command-lines **using only Windows 10-11 built-in internal commands**.
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install it.
+- We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
 ---
 
-## ![files-listing-icon] Files and folders listing from folder
+## Files and folders listing from folder
 
 Global features:
 
@@ -21,6 +22,13 @@ Global features:
 - Reads all folders and files including hidden ones.
 
 - Supports all Windows glyphs in all Windows languages/region versions.
+
+- To use it, right click one the folder you want to list the content, then select *List in Clipboard* or *List in Notepad*, then select:
+  - *List content*: to list folders and files
+  - *List content with subfolders*: to list full path of each element and subfolders
+  - *List content with subfolders as Admin*: if it's protected folder
+  - *List only files*
+  - *List on folders*
 
 ## ![clipboard-icon] List in Clipboard
 
@@ -96,8 +104,6 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 💿 To install this tool separately, just run `PowerShell7-here.reg`
 
-[PowerShell 7 x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
-
 ## ![gitbash-icon] Git Bash (and Git GUI) here
 
 `Git-here.reg`
@@ -137,9 +143,25 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Display in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MACTripleDES` `MD5` `RIPEMD-160` for any file(s) selected in File Explorer.
 
-- Applies on all selected files, in the File Explorer right pane. To use it, right click on selection ➜ Get file Hash.
+- Applies on all selected files, in the File Explorer right pane. To use it, right click on selection ➜ *Get file Hash*.
 
 💿 To install this tool separately, just run `Get-fileHash.reg`
+
+---
+
+## ![wipefreespace-icon] Overwrite deleted data
+
+`Wipe-free-space.reg`
+
+- Secures all your external drives before giving them, by ensuring that all deleted data has been overwrited. To do this, the Windows built-in program `cipher.exe` write successively 3 big files to fill entire empty space, in a temporary folder like `D:\EFSTMPWP\filE6A3.tmp`
+
+- Avoids to erase the data you want to keep, by formatting.
+
+- Proceeds 3 writting sequences: a first one only with `0`, a second one only with `1`, and a third one with random digits.
+
+- Applies on all external drives, in both File Explorer left and right panes. To use it, right click on your external drive ➜ *Overwrite deleted data*.
+
+💿 To install this tool separately, just run `Wipe-free-space.reg`
 
 ---
 
@@ -186,5 +208,9 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 [windowsterminal-icon]: /readme-images/WindowsTerminal-h32px.svg
 
 [hash-icon]: /readme-images/Hash-h32px.png
+
+[wipefreespace-icon]: /readme-images/WipeFreeSpace-h32px.png
+
+[PowerShell 7 x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 
 [Windows Terminal]: https://www.microsoft.com/store/productId/9N0DX20HK701
