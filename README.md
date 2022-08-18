@@ -49,6 +49,58 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 ---
 
+## ![get-filehash-icon] Calculates `SHA` and `MD5` hashes of files
+
+![Get-file-hash-screenshot](/readme-images/Get-file-hash-screenshot.png "Example of SHA256 hash calculated directly from File Explorer")
+
+`Get-FileHash.reg`
+
+- Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in *File Explorer*.
+
+- Applies on all selected files in the *File Explorer* right pane.
+
+- To use it, right click on selected files ➜ *Get file Hash*.
+
+💿 To install this tool separately, just run `Get-fileHash.reg`
+
+---
+
+## ![wipe-free-space-icon] Overwrite deleted data
+
+![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Example of sucessfull overwriting D:\ drive")
+
+`Wipe-free-space.reg`
+
+- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. Usually, even if a file is deleted and not just moved to *Recycle Bin*, this file is just **deindexed**, and entire content remains totally **recoverable** from your disk, until this content is overwrited by another file. This reason explain why deletions are so fast.
+
+- To secure your disk without formatting, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary file (`D:\EFSTMPWP\filE6A3.tmp` for example). Of course it **keeps existing files**.
+
+- Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the files you want to keep.
+
+- Executes 3 writting sequences: a first one only with `0` bits, a second one only with `1` bits, and a third one with random bits.
+
+- Applies on all internal and external drives, displayed in both *File Explorer* left and right panes.
+
+- To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
+
+💿 To install this tool separately, just run `Wipe-free-space.reg`
+
+---
+
+## ![lock-bitLocker-drive-icon] Lock BitLocker Drive
+
+`Lock-BitLocker-Drive.reg`
+
+- Adds the symetrical feature of existing *Unlock Drive...* context menu, never offered by *Microsoft*. Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
+
+- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
+
+- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive*.
+
+💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg`
+
+---
+
 ## All prompts here
 
 Each ***prompt here tool***:
@@ -134,58 +186,6 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 - Run `WindowsTerminal-here.reg`
 - Copy `WindowsTerminal.ico` to `C:\Windows\System32\` (this is necessary because *Windows Terminal* icon path always change with auto-updates provided by *Microsoft Store*).
 - [Below instructions](#⚙-Open-in-Terminal-default-context-menu) to remove/restore *Open in Terminal* context menu provided by [Windows Terminal] install
-
----
-
-## ![get-filehash-icon] Calculates `SHA` and `MD5` hashes of files
-
-![Get-file-hash-screenshot](/readme-images/Get-file-hash-screenshot.png "Example of SHA256 hash calculated directly from File Explorer")
-
-`Get-FileHash.reg`
-
-- Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in *File Explorer*.
-
-- Applies on all selected files in the *File Explorer* right pane.
-
-- To use it, right click on selected files ➜ *Get file Hash*.
-
-💿 To install this tool separately, just run `Get-fileHash.reg`
-
----
-
-## ![wipe-free-space-icon] Overwrite deleted data
-
-![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Example of sucessfull overwriting D:\ drive")
-
-`Wipe-free-space.reg`
-
-- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. Usually, even if a file is deleted and not just moved to *Recycle Bin*, this file is just deindexed, and entire content remains totally recoverable from your disk, until this content is overwrited by another file. This reason explain why deletions are so fast.
-
-- To secure your disk without fully formatting, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary file (`D:\EFSTMPWP\filE6A3.tmp` for example).
-
-- Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the files you want to keep.
-
-- Executes 3 writting sequences: a first one only with `0` bits, a second one only with `1` bits, and a third one with random bits.
-
-- Applies on all internal and external drives, displayed in both *File Explorer* left and right panes.
-
-- To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
-
-💿 To install this tool separately, just run `Wipe-free-space.reg`
-
----
-
-## ![lock-bitLocker-drive-icon] Lock BitLocker Drive
-
-`Lock-BitLocker-Drive.reg`
-
-- Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
-
-- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
-
-- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive*.
-
-💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg`
 
 ---
 
