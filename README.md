@@ -1,10 +1,10 @@
-# Windows Context Menu Tools
+# Windows Context Menu Powerful Tools
 
 ![Screenshots](/readme-images/WindowsContextMenuTools-screenshots.jpg "Screenshots of Windows Context Menu Tools")
 
 This repository is a bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
 
-- All tools are condensed in command-lines **using only Windows 10-11 built-in internal commands**.
+- All tools are condensed in command-lines **using only Windows 10-11 built-in commands**.
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install it.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
@@ -31,7 +31,7 @@ Global features:
   - *List only files*
   - *List on folders*
 
-## ![clipboard-icon] List in Clipboard
+## ![clipboard-icon] List files in Clipboard
 
 `List-in-Clipboard.reg`
 
@@ -39,7 +39,7 @@ Lists folders/files contained in any folder, and copy the list to the Clipboard.
 
 💿 To install this tool separately, just run `List-in-Clipboard.reg`
 
-## ![notepad-icon] List in Notepad
+## ![notepad-icon] List files in Notepad
 
 `List-in-Notepad.reg`
 
@@ -138,13 +138,15 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 ---
 
-## ![get-filehash-icon] Hash
+## ![get-filehash-icon] Calculates `SHA` and `MD5` hashes of files
+
+![Get-file-hash-screenshot](/readme-images/Get-file-hash-screenshot.png "Example of SHA256 hash calculated directly from File Explorer")
 
 `Get-FileHash.reg`
 
-- Display in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in File Explorer.
+- Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in File Explorer.
 
-- Applies on all selected files, in the File Explorer right pane.
+- Applies on all selected files in the *File Explorer* right pane.
 
 - To use it, right click on selection ➜ *Get file Hash*.
 
@@ -166,7 +168,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Applies on all external drives, displayed in both *File Explorer* left and right panes.
 
-- To use it, right click on your external drive ➜ *Overwrite deleted data*.
+- To use it, right click on your external drive ➜ *Overwrite deleted data*. When everything is done, you'll see 3 full lines of 100 points each one, like screenshot above.
 
 💿 To install this tool separately, just run `Wipe-free-space.reg`
 
@@ -186,7 +188,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 ---
 
-## How to install and uninstall all tools
+## Installation
 
 ### 💿 Install all tools
 
