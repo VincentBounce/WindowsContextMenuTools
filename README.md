@@ -8,7 +8,7 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install it.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
-- On **Windows 11**, an extra step is necessary to use these tools: from File Explorer, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`
+- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Here instructions to remove this Windows 11 extra layer](#Windows-11-Context-Menu).
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
@@ -154,7 +154,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 ## ![wipe-free-space-icon] Overwrite deleted data
 
-![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png)
+![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Example of sucessfull overwriting D:\ drive")
 
 `Wipe-free-space.reg`
 
@@ -178,7 +178,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
 
-- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is not locked or not BitLocker encrypted, then tool does nothing.
+- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is `C:` or is not locked or is not BitLocker encrypted, then the tool start and ignore the drive.
 
 - To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive*.
 
@@ -200,15 +200,24 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - You can run install as many times as you want, it always delete previous installation.
 
-- To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
 
 ### 🚫 Uninstall all tools
 
 - **Run `ALL-Uninstall.reg` to remove all tools automatically.**
 
-- To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[restore-default-menu-need-restart].reg`, then logoff/logon.
-
 - Optionally, you can delete Windows Terminal icon located here `C:\Windows\System32\WindowsTerminal.ico`
+
+### Windows 11 new context menu
+
+- To **remove** the default Windows 11 context menu, run `Windows11ContextMenu-remove-(need-restart).reg`, then logoff/logon.
+
+- To **restore** the default Windows 11 context menu, run `Windows11ContextMenu-restore-(need-restart).reg`, then logoff/logon.
+
+### *Open in Terminal* default context menu
+
+- To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminalDefaultMenu-remove-(need-restart).reg`, then logoff/logon.
+
+- To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminalDefaultMenu-restore-(need-restart).reg`, then logoff/logon.
 
 [clipboard-icon]: /readme-images/List-in-Clipboard-h32px.png
 
