@@ -154,9 +154,11 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 ## ![wipe-free-space-icon] Overwrite deleted data
 
+![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png)
+
 `Wipe-free-space.reg`
 
-- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. To do this, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary folder like `D:\EFSTMPWP\filE6A3.tmp`
+- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. To do this, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary file (`D:\EFSTMPWP\filE6A3.tmp` for example).
 
 - Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the data you want to keep.
 
