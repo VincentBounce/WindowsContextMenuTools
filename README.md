@@ -8,7 +8,7 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install it.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
-- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Here instructions to remove this Windows 11 extra layer](#Windows-11-new-context-menu).
+- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Below instructions](#⚙-Windows-11-new-context-menu) to remove this Windows 11 extra layer.
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
@@ -133,8 +133,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Run `WindowsTerminal-here.reg`
 - Copy `WindowsTerminal.ico` to `C:\Windows\System32\` (this is necessary because *Windows Terminal* icon path always change with auto-updates provided by *Microsoft Store*).
-- To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[remove-default-menu-need-restart].reg`, then logoff/logon.
-- To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminal-[restore-default-menu-need-restart].reg`, then logoff/logon.
+- [Below instructions](#⚙-Open-in-Terminal-default-context-menu) to remove/restore *Open in Terminal* context menu provided by [Windows Terminal] install
 
 ---
 
@@ -148,7 +147,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Applies on all selected files in the *File Explorer* right pane.
 
-- To use it, right click on selection ➜ *Get file Hash*.
+- To use it, right click on selected files ➜ *Get file Hash*.
 
 💿 To install this tool separately, just run `Get-fileHash.reg`
 
@@ -168,7 +167,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Executes 3 writting sequences: a first one only with `0` bits, a second one only with `1` bits, and a third one with random bits.
 
-- Applies on all external drives, displayed in both *File Explorer* left and right panes.
+- Applies on all internal and external drives, displayed in both *File Explorer* left and right panes.
 
 - To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
 
@@ -182,7 +181,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
 
-- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is `C:` or is not locked or is not BitLocker encrypted, then the tool start and ignore the drive.
+- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
 
 - To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive*.
 
