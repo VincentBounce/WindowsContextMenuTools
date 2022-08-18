@@ -8,6 +8,7 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install it.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
+- On **Windows 11**, an extra step is necessary to use these tools: from File Explorer, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
@@ -137,31 +138,49 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 ---
 
-## ![hash-icon] Hash
+## ![get-filehash-icon] Hash
 
 `Get-FileHash.reg`
 
 - Display in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in File Explorer.
 
-- Applies on all selected files, in the File Explorer right pane. To use it, right click on selection ➜ *Get file Hash*.
+- Applies on all selected files, in the File Explorer right pane.
+
+- To use it, right click on selection ➜ *Get file Hash*.
 
 💿 To install this tool separately, just run `Get-fileHash.reg`
 
 ---
 
-## ![wipefreespace-icon] Overwrite deleted data
+## ![wipe-free-space-icon] Overwrite deleted data
 
 `Wipe-free-space.reg`
 
-- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. To do this, the Windows built-in program `cipher.exe` write successively 3 big files to fill entire empty space, in a temporary folder like `D:\EFSTMPWP\filE6A3.tmp`
+- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. To do this, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary folder like `D:\EFSTMPWP\filE6A3.tmp`
 
 - Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the data you want to keep.
 
 - Proceeds 3 writting sequences: a first one only with `0`, a second one only with `1`, and a third one with random digits.
 
-- Applies on all external drives, in both File Explorer left and right panes. To use it, right click on your external drive ➜ *Overwrite deleted data*.
+- Applies on all external drives, displayed in both *File Explorer* left and right panes.
+
+- To use it, right click on your external drive ➜ *Overwrite deleted data*.
 
 💿 To install this tool separately, just run `Wipe-free-space.reg`
+
+---
+
+## ![lock-bitLocker-drive-icon] Lock BitLocker Drive
+
+`Lock-BitLocker-Drive.reg`
+
+- Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
+
+- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is not locked or not BitLocker encrypted, then tool does nothing.
+
+- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive*.
+
+💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg`
 
 ---
 
@@ -189,11 +208,9 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Optionally, you can delete Windows Terminal icon located here `C:\Windows\System32\WindowsTerminal.ico`
 
-[files-listing-icon]: /readme-images/files-h42px.png
+[clipboard-icon]: /readme-images/List-in-Clipboard-h32px.png
 
-[clipboard-icon]: /readme-images/Clipobard-h32px.png
-
-[notepad-icon]: /readme-images/Notepad-h32px.png
+[notepad-icon]: /readme-images/List-in-Notepad-h32px.png
 
 [commandprompt-icon]: /readme-images/CommandPrompt-h32px.png
 
@@ -207,9 +224,11 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 [windowsterminal-icon]: /readme-images/WindowsTerminal-h32px.svg
 
-[hash-icon]: /readme-images/Hash-h32px.png
+[get-filehash-icon]: /readme-images/Get-fileHash-h32px.png
 
-[wipefreespace-icon]: /readme-images/WipeFreeSpace-h32px.png
+[wipe-free-space-icon]: /readme-images/Wipe-free-space-h32px.png
+
+[lock-bitLocker-drive-icon]: /readme-images/Lock-BitLocker-Drive-h32px.png
 
 [PowerShell 7 x64 MSI]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows
 
