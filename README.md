@@ -18,7 +18,7 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 
 Global features:
 
-- Lists folders and files from any directory **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
+- Lists folders and files from any directory (**drive** or **folder** or **shortcut `.lnk`** or **network location**) on both *File Explorer* left and right panes.
 
 - Reads all folders and files including hidden ones.
 
@@ -53,9 +53,9 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 Each ***prompt here tool***:
 
-- Opens from any **folder** or **shortcut `.lnk`** or **network location**, on both *File Explorer* left and right panes.
+- Opens terminal from any directory (**folder** or **shortcut `.lnk`** or **network location**) on both *File Explorer* left and right panes.
 
-- Can be run as user or *as Administrator* (please note *run as Administrator* doesn't apply from folder's shortcuts `.lnk`)
+- Opens terminal as user or *as Administrator* (please note *run as Administrator* doesn't apply from directory's shortcuts `.lnk`)
 
 - Doesn't open from *Windows Libraries*
 
@@ -144,7 +144,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 `Get-FileHash.reg`
 
-- Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in File Explorer.
+- Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in *File Explorer*.
 
 - Applies on all selected files in the *File Explorer* right pane.
 
@@ -160,15 +160,17 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 `Wipe-free-space.reg`
 
-- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. To do this, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary file (`D:\EFSTMPWP\filE6A3.tmp` for example).
+- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. Usually, even if a file is deleted and not just moved to *Recycle Bin*, this file is just deindexed, and entire content remains totally recoverable from your disk, until this content is overwrited by another file. This reason explain why deletions are so fast.
 
-- Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the data you want to keep.
+- To secure your disk without fully formatting, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary file (`D:\EFSTMPWP\filE6A3.tmp` for example).
 
-- Proceeds 3 writting sequences: a first one only with `0`, a second one only with `1`, and a third one with random digits.
+- Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the files you want to keep.
+
+- Executes 3 writting sequences: a first one only with `0` bits, a second one only with `1` bits, and a third one with random bits.
 
 - Applies on all external drives, displayed in both *File Explorer* left and right panes.
 
-- To use it, right click on your external drive ➜ *Overwrite deleted data*. When everything is done, you'll see 3 full lines of 100 points each one, like screenshot above.
+- To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
 
 💿 To install this tool separately, just run `Wipe-free-space.reg`
 
@@ -202,20 +204,19 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - You can run install as many times as you want, it always delete previous installation.
 
-
 ### 🚫 Uninstall all tools
 
 - **Run `ALL-Uninstall.reg` to remove all tools automatically.**
 
 - Optionally, you can delete Windows Terminal icon located here `C:\Windows\System32\WindowsTerminal.ico`
 
-### Windows 11 new context menu
+### ⚙ Windows 11 new context menu
 
 - To **remove** the default Windows 11 context menu, run `Windows11ContextMenu-remove-(need-restart).reg`, then logoff/logon.
 
 - To **restore** the default Windows 11 context menu, run `Windows11ContextMenu-restore-(need-restart).reg`, then logoff/logon.
 
-### *Open in Terminal* default context menu
+### ⚙ *Open in Terminal* default context menu
 
 - To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminalDefaultMenu-remove-(need-restart).reg`, then logoff/logon.
 
