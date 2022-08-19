@@ -49,7 +49,14 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 ![Lock-BitLocker-Driv-screenshot](/readme-images/Lock-BitLocker-Drive-screenshot.png "BitLocker Drive unlocking from Windows File Explorer")
 
-- Adds the symetrical feature of existing *Unlock Drive context menu*, never offered by *Microsoft*. Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
+- Adds the symetrical feature of existing *Unlock Drive context menu*, never offered by *Microsoft*. Lets you:
+  - Lock your external *BitLocker encrypted drive* whenether you want.
+  - Directly from *File Explorer*.
+  - No need to disconnect/eject/unplug your drive anymore.
+
+- This tool calls the Windows built-in program `manage-bde.exe`
+
+- Locks the drive even when applications have non-exclusive access to the volume.
 
 - Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
 
