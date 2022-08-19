@@ -45,6 +45,20 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 ---
 
+## ![lock-bitLocker-drive-icon] Lock BitLocker Drive
+
+![Lock-BitLocker-Driv-screenshot](/readme-images/Lock-BitLocker-Drive-screenshot.png "BitLocker Drive unlocking from Windows File Explorer")
+
+- Adds the symetrical feature of existing *Unlock Drive context menu*, never offered by *Microsoft*. Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
+
+- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
+
+- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive* ➜ Click *Yes*.
+
+💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
+
+---
+
 ## ![get-filehash-icon] Calculates `SHA` and `MD5` hashes of files
 
 ![Get-file-hash-screenshot](/readme-images/Get-file-hash-screenshot.png "Example of SHA256 hash calculated directly from File Explorer")
@@ -76,20 +90,6 @@ Lists folders/files contained in any folder and displays the list in a temporary
 - To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
 
 💿 To install this tool separately, just run `Wipe-free-space.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
-
----
-
-## ![lock-bitLocker-drive-icon] Lock BitLocker Drive
-
-![Lock-BitLocker-Driv-screenshot](/readme-images/Lock-BitLocker-Drive-screenshot.png "BitLocker Drive unlocking from Windows File Explorer")
-
-- Adds the symetrical feature of existing *Unlock Drive...* context menu, never offered by *Microsoft*. Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
-
-- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
-
-- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive* ➜ Click *Yes*.
-
-💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ---
 
