@@ -27,7 +27,7 @@ Global features:
 - To use it, right click one the folder you want to list the content, then select *List in Clipboard* or *List in Notepad*, then select:
   - *List content*: to list folders and files
   - *List content with subfolders*: to list full path of each element and subfolders
-  - *List content with subfolders as Admin*: if it's protected folder
+  - *List content with subfolders as Admin*: if it's a protected folder
   - *List only files*
   - *List on folders*
 
@@ -174,7 +174,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Run `WindowsTerminal-here.reg`
 - Copy `WindowsTerminal.ico` to `C:\Windows\System32\` (this is necessary because *Windows Terminal* icon path always change with auto-updates provided by *Microsoft Store*).
-- [Below instructions](#-open-in-Terminal-default-context-menu) to remove/restore *Open in Terminal* context menu provided by *Windows Terminal install*.
+- [Below instructions](#-open-in-terminal-default-context-menu) to remove/restore *Open in Terminal* context menu provided by *Windows Terminal install*.
 
 ---
 
