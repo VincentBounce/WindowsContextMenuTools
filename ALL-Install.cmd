@@ -26,6 +26,10 @@ cd "%SCRIPT_PATH%"
 regedit /s List-in-Clipboard.reg
 regedit /s List-in-Notepad.reg
 
+regedit /s Lock-BitLocker-Drive.reg
+regedit /s Get-fileHash.reg
+regedit /s Wipe-free-space.reg
+
 regedit /s CommandPrompt-here.reg
 regedit /s PowerShell5-here.reg
 regedit /s PowerShell5-ISE-here.reg
@@ -33,10 +37,6 @@ regedit /s PowerShell7-here.reg
 regedit /s Git-here.reg
 copy WindowsTerminal.ico %SystemRoot%\System32\
 regedit /s WindowsTerminal-here.reg
-
-regedit /s Get-fileHash.reg
-regedit /s Wipe-free-space.reg
-regedit /s Lock-BitLocker-Drive.reg
 
 cls & color F2 & echo Installed. [Space] to close.
 ::pause >nul
