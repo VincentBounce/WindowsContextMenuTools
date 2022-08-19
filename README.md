@@ -1,7 +1,5 @@
 # Windows Context Menu Powerful Tools
 
-![Screenshots](/readme-images/WindowsContextMenuTools-screenshots.jpg "Screenshots of Windows Context Menu Tools")
-
 This repository is a bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
 
 - All tools are condensed in command-lines **using only Windows 10-11 built-in commands**.
@@ -14,7 +12,9 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 
 ---
 
-## Files and folders listing from folder
+## Files & folders listing from File Explorer
+
+![Files-folders-listing-from-Windows-File-Explorer-screenshot](/readme-images/Files-folders-listing-from-Windows-File-Explorer-screenshot.png "Files and folders listing from Windows File Explorer")
 
 Global features:
 
