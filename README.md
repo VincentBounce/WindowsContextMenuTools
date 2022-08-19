@@ -1,4 +1,4 @@
-# Windows Context Menu Powerful Tools
+# 🧰Windows Context Menu Powerful Tools
 
 This repository is a bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
 
@@ -6,7 +6,7 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install it. No file copied. Instant install.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
-- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Below instructions](#⚙-Windows-11-new-context-menu) to remove/restore this Windows 11 extra layer.
+- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Below instructions](#-Windows-11-new-context-menu) to remove/restore this Windows 11 extra layer.
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
