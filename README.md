@@ -6,7 +6,7 @@ This repository is a bundle of best ***Windows shell File Explorer context menu 
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install it. No file copied. Instant install.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
-- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Below instructions](#-Windows-11-new-context-menu) to remove/restore this Windows 11 extra layer.
+- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Below instructions](#-windows-11-new-context-menu) to remove/restore this Windows 11 extra layer.
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
@@ -35,13 +35,13 @@ Global features:
 
 Lists folders/files contained in any folder, and copy the list to the Clipboard.
 
-💿 To install this tool separately, just run `List-in-Clipboard.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `List-in-Clipboard.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ## ![notepad-icon] List files in Notepad
 
 Lists folders/files contained in any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
 
-💿 To install this tool separately, just run `List-in-Notepad.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `List-in-Notepad.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ---
 
@@ -62,7 +62,7 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 - To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive* ➜ Click *Yes*.
 
-💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ---
 
@@ -76,7 +76,7 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 - To use it, right click on selected files ➜ *Get file Hash*.
 
-💿 To install this tool separately, just run `Get-fileHash.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `Get-fileHash.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ---
 
@@ -96,7 +96,7 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 - To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
 
-💿 To install this tool separately, just run `Wipe-free-space.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `Wipe-free-space.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ---
 
@@ -122,13 +122,13 @@ Each ***prompt here*** Tool:
 
 Let you run built-in ***Command Prompt*** located in Path Environment `cmd.exe` from any folder.
 
-💿 To install this tool separately, just run `CommandPrompt-here.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `CommandPrompt-here.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ## ![powershell5-icon] PowerShell 5 here
 
 Let you run built-in ***Windows PowerShell*** located in Path Environment `powershell.exe`, from any folder. By default it's always *Windows PowerShell x64* on Windows 64-bits.
 
-💿 To install this tool separately, just run `PowerShell5-here.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `PowerShell5-here.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ## ![powershell5-ise-icon] PowerShell 5 ISE here
 
@@ -136,7 +136,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Limitation: doen't work from a folder which contains in his path `[` or `]` character.
 
-💿 To install this tool separately, just run `PowerShell5-ISE-here.reg` and confirm 3 dialog boxes. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `PowerShell5-ISE-here.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ## ![powershell7-icon] PowerShell 7 here
 
@@ -148,7 +148,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Replaces *PowerShell 7 default context menu* to get a clean cascaded menu and *run as Admin feature*.
 
-💿 To install this tool separately, just run `PowerShell7-here.reg` and confirm 3 dialog boxes. It replaces existing *PowerShell 7* context menu. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `PowerShell7-here.reg` and confirm 3 dialog boxes. It replaces existing *PowerShell 7* context menu. To install [bundle it's here](#-install-all-tools).
 
 ## ![gitbash-icon] Git Bash (and Git GUI) here
 
@@ -160,7 +160,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Replaces *Git default context menu* to get a clean cascaded menu and *run as Admin feature*.
 
-💿 To install this tool separately, just run `Git-here.reg` and confirm 3 dialog boxes. It replaces existing *Git* context menu. To install [bundle it's here](#💿-Install-all-tools).
+💿 To install this tool separately, just run `Git-here.reg` and confirm 3 dialog boxes. It replaces existing *Git* context menu. To install [bundle it's here](#-install-all-tools).
 
 ## ![windowsterminal-icon] Windows Terminal here
 
@@ -174,7 +174,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Run `WindowsTerminal-here.reg`
 - Copy `WindowsTerminal.ico` to `C:\Windows\System32\` (this is necessary because *Windows Terminal* icon path always change with auto-updates provided by *Microsoft Store*).
-- [Below instructions](#⚙-Open-in-Terminal-default-context-menu) to remove/restore *Open in Terminal* context menu provided by *Windows Terminal install*.
+- [Below instructions](#-open-in-Terminal-default-context-menu) to remove/restore *Open in Terminal* context menu provided by *Windows Terminal install*.
 
 ---
 
