@@ -33,19 +33,15 @@ Global features:
 
 ## ![clipboard-icon] List files in Clipboard
 
-`List-in-Clipboard.reg`
-
 Lists folders/files contained in any folder, and copy the list to the Clipboard.
 
-💿 To install this tool separately, just run `List-in-Clipboard.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `List-in-Clipboard.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ## ![notepad-icon] List files in Notepad
 
-`List-in-Notepad.reg`
-
 Lists folders/files contained in any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
 
-💿 To install this tool separately, just run `List-in-Notepad.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `List-in-Notepad.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ---
 
@@ -53,23 +49,19 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 ![Get-file-hash-screenshot](/readme-images/Get-file-hash-screenshot.png "Example of SHA256 hash calculated directly from File Explorer")
 
-`Get-FileHash.reg`
-
 - Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in *File Explorer*.
 
 - Applies on all selected files in the *File Explorer* right pane.
 
 - To use it, right click on selected files ➜ *Get file Hash*.
 
-💿 To install this tool separately, just run `Get-fileHash.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `Get-fileHash.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ---
 
 ## ![wipe-free-space-icon] Overwrite deleted data
 
-![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Example of sucessfull overwriting D:\ drive")
-
-`Wipe-free-space.reg`
+![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Overwriting D:\ drive from Windows File Explorer")
 
 - Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. Usually, even if a file is deleted and not just moved to *Recycle Bin*, this file is just **deindexed**, and entire content remains totally **recoverable** from your disk, until this content is overwrited by another file. This reason explain why deletions are so fast.
 
@@ -83,21 +75,21 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 - To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
 
-💿 To install this tool separately, just run `Wipe-free-space.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `Wipe-free-space.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ---
 
 ## ![lock-bitLocker-drive-icon] Lock BitLocker Drive
 
-`Lock-BitLocker-Drive.reg`
+![Lock-BitLocker-Driv-screenshot](/readme-images/Lock-BitLocker-Drive-screenshot.png "BitLocker Drive unlocking from Windows File Explorer")
 
 - Adds the symetrical feature of existing *Unlock Drive...* context menu, never offered by *Microsoft*. Let you lock your external BitLocker drive whenether you want, directly from *File Explorer*. This tool calls the Windows built-in program `manage-bde.exe`
 
 - Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
 
-- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive*.
+- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive* ➜ Click *Yes*.
 
-💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ---
 
@@ -119,33 +111,25 @@ Each ***prompt here tool***:
 
 ## ![commandprompt-icon] Command Prompt here
 
-`CommandPrompt-here.reg`
-
 Let you run built-in ***Command Prompt*** located in Path Environment `cmd.exe` from any folder.
 
-💿 To install this tool separately, just run `CommandPrompt-here.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `CommandPrompt-here.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ## ![powershell5-icon] PowerShell 5 here
 
-`PowerShell5-here.reg`
-
 Let you run built-in ***Windows PowerShell*** located in Path Environment `powershell.exe`, from any folder. By default it's always *Windows PowerShell x64* on Windows 64-bits.
 
-💿 To install this tool separately, just run `PowerShell5-here.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `PowerShell5-here.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ## ![powershell5-ise-icon] PowerShell 5 ISE here
-
-`PowerShell5-ISE-here.reg`
 
 - Let you run built-in ***Windows PowerShell ISE*** located in Path Environment `powershell_ise.exe`, from any folder. By default it's always *Windows PowerShell ISE x64* or Windows 64-bits.
 
 - Limitation: doen't work from a folder which contains in his path `[` or `]` character.
 
-💿 To install this tool separately, just run `PowerShell5-ISE-here.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `PowerShell5-ISE-here.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ## ![powershell7-icon] PowerShell 7 here
-
-`PowerShell7-here.reg`
 
 - Let you run latest ***PowerShell 7*** located in Path Environment `pwsh.exe`, from any folder.
 
@@ -155,11 +139,9 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Replaces *PowerShell 7 default context menu* to get a clean cascaded menu and *run as Admin feature*.
 
-💿 To install this tool separately, just run `PowerShell7-here.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `PowerShell7-here.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ## ![gitbash-icon] Git Bash (and Git GUI) here
-
-`Git-here.reg`
 
 - Let you run ***Git Bash*** and ***Git GUI*** from any folder.
 
@@ -169,11 +151,9 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Replaces *Git default context menu* to get a clean cascaded menu and *run as Admin feature*.
 
-💿 To install this tool separately, just run `Git-here.reg`. To install bundle it's  [here](#⚙-Install-all-tools).
+💿 To install this tool separately, just run `Git-here.reg` and confirm 3 dialog boxes. To install bundle it's  [here](#⚙-Install-all-tools).
 
 ## ![windowsterminal-icon] Windows Terminal here
-
-`WindowsTerminal-here.reg`
 
 - Let you run latest ***Windows Terminal*** located in Path Environment `wt.exe`, from any folder.
 
