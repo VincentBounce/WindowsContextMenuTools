@@ -72,7 +72,7 @@ Lists folders/files contained in any folder and displays the list in a temporary
 
 - Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in *File Explorer*.
 
-- Fast result because each hash is calculated separetely. At the opposite, others hash softwares/plugins compute big files during very long time, because they calculate 4 more useless hashes, in addition the one you're targeting.
+- Fast result because only selected hash is calculated. At the opposite, others hash softwares/plugins compute big files during long time, because they calculate 4 more useless hashes, in addition the one you're targeting.
 
 - Applies on all selected files in the *File Explorer* right pane.
 
