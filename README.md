@@ -30,7 +30,7 @@ Global features:
   - *List content with subfolders as Admin*: if it's a protected folder
   - *List only files*
   - *List on folders*
-  - *Display tree* (only for *List in Notepad*): draws your folders tree in a text file, using `tree.com` command. A second command does the same with files. Only displays ASCII characters.
+  - *Display tree* (only for *List in Notepad*): draws your folders tree in a text file, using `tree.com` command. A second command does the same with files. Only displays ASCII characters. Example below:
 
 ```text
 C:\WINDOWS
@@ -44,13 +44,13 @@ C:\WINDOWS
 
 ## ![clipboard-icon] List files in Clipboard
 
-Lists folders/files contained in any folder, and copy the list to the Clipboard.
+Lists files/folders contained in any folder, and copy the list to the Clipboard.
 
 💿 To install this tool separately, just run `List-in-Clipboard.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
 ## ![notepad-icon] List files in Notepad
 
-Lists folders/files contained in any folder and displays the list in a temporary Notepad file that disappear as soon as you close it.
+Lists files/folders contained in any folder and displays the list in a temporary Notepad file that disappears as soon as you close it.
 
 💿 To install this tool separately, just run `List-in-Notepad.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
