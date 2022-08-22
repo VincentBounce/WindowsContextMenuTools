@@ -30,6 +30,17 @@ Global features:
   - *List content with subfolders as Admin*: if it's a protected folder
   - *List only files*
   - *List on folders*
+  - *Display tree* (only for *List in Notepad*): draws your folders tree in a text file, using `tree.com` command. A second command does the same with files. Only displays ASCII characters.
+
+```text
+C:\WINDOWS
+└───Boot
+    └───DVD
+        ├───EFI
+        │   └───en-US
+        └───PCAT
+            └───en-US
+```
 
 ## ![clipboard-icon] List files in Clipboard
 
