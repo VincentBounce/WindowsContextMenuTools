@@ -1,6 +1,6 @@
 # 🧰 Windows Context Menu Powerful Tools
 
-This repository is a bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
+Bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
 
 - All tools are condensed in command-lines **using only Windows 10-11 built-in commands**.
 - These commands are written into Windows Registry when you install these tools.
