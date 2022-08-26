@@ -3,6 +3,7 @@
 Bundle of best ***Windows shell File Explorer context menu tools*** sorted and organized in cascaded menus.
 
 - All tools are condensed in command-lines **using only Windows 10-11 built-in commands**.
+- Each tool can be installed separately.
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install tools. No file copied. Instant install.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
@@ -44,7 +45,7 @@ C:\WINDOWS
 
 ## ![clipboard-icon] List files in Clipboard
 
-Lists files/folders contained in any folder, and copy the list to the Clipboard.
+Lists files/folders contained in any folder and copy the list to the Clipboard.
 
 💿 To install this tool separately, just run `List-in-Clipboard.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
@@ -60,8 +61,8 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ![Lock-BitLocker-Driv-screenshot](/readme-images/Lock-BitLocker-Drive-screenshot.png "BitLocker Drive unlocking from Windows File Explorer")
 
-- Adds the symetrical feature of existing *Unlock Drive context menu*, never offered by *Microsoft*. Lets you:
-  - Lock your external *BitLocker encrypted drive* whenether you want.
+- Adds the symmetrical feature of existing *Unlock Drive context menu*, never offered by *Microsoft*. It lets you:
+  - Lock your external *BitLocker encrypted drive* whenever you want.
   - Directly from *File Explorer*.
   - No need to disconnect/eject/unplug your drive anymore.
 
@@ -69,7 +70,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 - Locks the drive even when applications have non-exclusive access to the volume.
 
-- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool start and **ignore the drive**.
+- Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool starts and **ignore the drive**.
 
 - To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive* ➜ Click *Yes*.
 
@@ -83,7 +84,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 - Calculates and displays in a terminal window one the following hashes `SHA-1` `SHA-256` `SHA-384` `SHA-512` `MD5` for any file(s) selected in *File Explorer*.
 
-- Fast result because only selected hash is calculated. At the opposite, others hash softwares/plugins compute big files during long time, because they calculate 4 more useless hashes, in addition the one you're targeting.
+- Fast result because only selected hash is calculated. At the opposite, others hash software/plugins compute big files during long time, because they calculate 4 more useless hashes, in addition the one you're targeting.
 
 - Applies on all selected files in the *File Explorer* right pane.
 
@@ -97,13 +98,13 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Overwriting D:\ drive from Windows File Explorer")
 
-- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwrited**. Usually, even if a file is deleted and not just moved to *Recycle Bin*, this file is just **deindexed**, and entire content remains totally **recoverable** from your disk, until this content is overwrited by another file. This reason explain why deletions are so fast.
+- Secures all your external drives before giving them, by ensuring that all **deleted data** has been **overwritten**. Usually, even if a file is deleted and not just moved to *Recycle Bin*, this file is just **deindexed**, and entire content remains totally **recoverable** from your disk, until this content is overwritten by another file. This reason explain why deletions are so fast.
 
-- To secure your disk without formatting, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary file (`D:\EFSTMPWP\filE6A3.tmp` for example). Of course it **keeps existing files**.
+- To secure your disk without formatting, this tool calls the Windows built-in program `cipher.exe` which writes successively 3 big files to fill entire empty space, in a temporary file (`D:\EFSTMPWP\filE6A3.tmp` for example). Of course, it **keeps existing files**.
 
-- Avoids traditionnal formatting, which is unsecure, and which erase unnecessarily the files you want to keep.
+- Avoids traditional formatting, which is unsecure, and which erase unnecessarily the files you want to keep.
 
-- Executes 3 writting sequences: a first one only with `0` bits, a second one only with `1` bits, and a third one with random bits.
+- Executes 3 writing sequences: a first one only with `0` bits, a second one only with `1` bits, and a third one with random bits.
 
 - Applies on all internal and external drives, displayed in both *File Explorer* left and right panes.
 
@@ -147,7 +148,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Let you run built-in ***Windows PowerShell ISE*** located in Path Environment `powershell_ise.exe`, from any folder. By default it's always *Windows PowerShell ISE x64* or Windows 64-bits.
 
-- Limitation: doen't work from a folder which contains in his path `[` or `]` character.
+- Limitation: doesn't work from a folder which contains in his path `[` or `]` character.
 
 💿 To install this tool separately, just run `PowerShell5-ISE-here.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
@@ -203,7 +204,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - Just run a `.reg` if you want to install a specific one.
 
-- You can run install as many times as you want, it always delete previous installation.
+- You can run install as many times as you want, it always deletes previous installation.
 
 ### 🚫 Uninstall all tools
 
