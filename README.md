@@ -94,7 +94,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ---
 
-## ![wipe-free-space-icon] Overwrite deleted data
+## ![wipe-free-space-icon] Overwrite deleted data - Drive shredder
 
 ![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Overwriting D:\ drive from Windows File Explorer")
 
