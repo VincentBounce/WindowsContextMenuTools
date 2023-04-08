@@ -192,9 +192,9 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 ---
 
-## Installation
+# 💾 Installation
 
-### 💿 Install all tools
+## 💿 Install all tools
 
 - Click *Code* green button above ➜ *Download ZIP*, then extract `WindowsContextMenuTools-main.zip`.
 
@@ -206,19 +206,19 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - You can run install as many times as you want, it always deletes previous installation.
 
-### 🚫 Uninstall all tools
+## 🚫 Uninstall all tools
 
 - **Run `ALL-Uninstall.reg` to remove all tools automatically.**
 
 - Optionally, you can delete Windows Terminal icon located here `C:\Windows\System32\WindowsTerminal.ico`
 
-### ⚙ Windows 11 new context menu
+## ⚙ Windows 11 new context menu
 
 - To **remove** the default Windows 11 context menu, run `Windows11ContextMenu-remove-(need-restart).reg`, then logoff/logon.
 
 - To **restore** the default Windows 11 context menu, run `Windows11ContextMenu-restore-(need-restart).reg`, then logoff/logon.
 
-### ⚙ *Open in Terminal* default context menu
+## ⚙ *Open in Terminal* default context menu
 
 - To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminalDefaultMenu-remove-(need-restart).reg`, then logoff/logon.
 
