@@ -13,7 +13,7 @@ Bundle of best ***Windows shell File Explorer context menu tools*** sorted and o
 
 ---
 
-## Files & folders listing from File Explorer
+# 📝Files & folders listing from File Explorer
 
 ![Files-folders-listing-from-Windows-File-Explorer-screenshot](/readme-images/Files-folders-listing-from-Windows-File-Explorer-screenshot.png "Files and folders listing from Windows File Explorer")
 
@@ -57,7 +57,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ---
 
-## ![lock-bitLocker-drive-icon] Lock BitLocker Drive
+# ![lock-bitLocker-drive-icon] Lock BitLocker Drive
 
 ![Lock-BitLocker-Driv-screenshot](/readme-images/Lock-BitLocker-Drive-screenshot.png "BitLocker Drive unlocking from Windows File Explorer")
 
@@ -78,7 +78,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ---
 
-## ![get-filehash-icon] Calculates `SHA` and `MD5` hashes of files
+# ![get-filehash-icon] Calculates `SHA` and `MD5` hashes of files
 
 ![Get-file-hash-screenshot](/readme-images/Get-file-hash-screenshot.png "SHA256 hash calculated directly from File Explorer")
 
@@ -94,7 +94,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ---
 
-## ![wipe-free-space-icon] Overwrite deleted data - Drive shredder
+# ![wipe-free-space-icon] Overwrite deleted data - Drive shredder
 
 ![Wipe-free-space-screenshot](/readme-images/Wipe-free-space-screenshot.png "Overwriting D:\ drive from Windows File Explorer")
 
@@ -114,7 +114,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ---
 
-## *Prompt here* Tools
+# 👇*Prompt here* Tools
 
 ![Prompt-here-Tools-screenshot](/readme-images/Prompt-here-Tools-screenshot.png "PowerShell terminal called directly from a Windows File Explorer directory")
 
@@ -223,6 +223,17 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 - To **remove** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminalDefaultMenu-remove-(need-restart).reg`, then logoff/logon.
 
 - To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminalDefaultMenu-restore-(need-restart).reg`, then logoff/logon.
+
+---
+
+# 😉 Author
+
+**Vincent Bounce** 🇫🇷
+<ul dir="auto">
+🐦 Twitter <a href="https://twitter.com/VincentJounce" rel="nofollow">@VincentJounce</a>
+<li>📷 Instagram <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a></li>
+<li>📺 YouTube <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a></li>
+</ul>
 
 [clipboard-icon]: /readme-images/List-in-Clipboard-h32px.png
 
