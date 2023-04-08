@@ -229,10 +229,15 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 # 😉 Author
 
 **Vincent Bounce** 🇫🇷
+
 <ul dir="auto">
+
 🐦 Twitter <a href="https://twitter.com/VincentJounce" rel="nofollow">@VincentJounce</a>
-<li>📷 Instagram <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a></li>
-<li>📺 YouTube <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a></li>
+
+📷 Instagram <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a>
+
+📺 YouTube <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a>
+
 </ul>
 
 [clipboard-icon]: /readme-images/List-in-Clipboard-h32px.png
