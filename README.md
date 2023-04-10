@@ -240,6 +240,50 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 </ul>
 
+---
+
+# 🗂️ Table of contents
+
+- [Windows Context Menu Powerful Tools](#-windows-context-menu-powerful-tools)
+
+- Files & folders listing from File Explorer
+
+  - List files in Clipboard
+
+  - List files in Notepad
+
+- Lock BitLocker Drive
+
+- Calculates SHA and MD5 hashes of files
+
+- Overwrite deleted data - Drive shredder
+
+- Prompt here Tools
+
+  - Command Prompt here
+
+  - PowerShell 5 here
+
+  - PowerShell 5 ISE here
+
+  - PowerShell 7 here
+
+  - Git Bash (and Git GUI) here
+
+  - Windows Terminal here
+
+- Installation
+
+  - Install all tools
+
+  - Uninstall all tools
+
+  - Windows 11 new context menu
+
+  - Open in Terminal default context menu
+
+- Author
+
 [clipboard-icon]: /readme-images/List-in-Clipboard-h32px.png
 
 [notepad-icon]: /readme-images/List-in-Notepad-h32px.png
