@@ -224,6 +224,11 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - To **restore** the default *Open in Terminal* context menu provided by [Windows Terminal] install, run `WindowsTerminalDefaultMenu-restore-(need-restart).reg`, then logoff/logon.
 
+| ⚙ | Windows 11 new context menu | *Open in Terminal* default context menu provided by [Windows Terminal] |
+| :--- | :--- | :--- |
+| 🚫 To remove | Run `Windows11ContextMenu-remove-(need-restart).reg`, then logoff/logon. | Run `WindowsTerminalDefaultMenu-remove-(need-restart).reg`, then logoff/logon. |
+| 📦 To restore | Run `Windows11ContextMenu-restore-(need-restart).reg`, then logoff/logon. | Run `WindowsTerminalDefaultMenu-restore-(need-restart).reg`, then logoff/logon. |
+
 ---
 
 # 😉 Author
