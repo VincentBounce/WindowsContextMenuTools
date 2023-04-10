@@ -246,7 +246,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - [Windows Context Menu Powerful Tools](#-windows-context-menu-powerful-tools)
 
-- [Files & folders listing from File Explorer](#files--folders-listing-from-file-explorer)
+- [Files & folders listing from File Explorer](#-files--folders-listing-from-file-explorer)
 
   - List files in Clipboard
 
@@ -258,7 +258,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - [Overwrite deleted data - Drive shredder](#-overwrite-deleted-data---drive-shredder)
 
-- [Prompt here Tools](#prompt-here-tools)
+- [Prompt here Tools](#-prompt-here-tools)
 
   - Command Prompt here
 
@@ -282,7 +282,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
   - Open in Terminal default context menu
 
-- [Author]()
+- [Author](#-author)
 
 [clipboard-icon]: /readme-images/List-in-Clipboard-h32px.png
 
