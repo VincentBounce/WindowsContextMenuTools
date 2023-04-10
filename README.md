@@ -246,19 +246,19 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 - [Windows Context Menu Powerful Tools](#-windows-context-menu-powerful-tools)
 
-- Files & folders listing from File Explorer
+- [Files & folders listing from File Explorer](#files--folders-listing-from-file-explorer)
 
   - List files in Clipboard
 
   - List files in Notepad
 
-- Lock BitLocker Drive
+- [Lock BitLocker Drive](#-lock-bitlocker-drive)
 
-- Calculates SHA and MD5 hashes of files
+- [Calculates SHA and MD5 hashes of files](#-calculates-sha-and-md5-hashes-of-files)
 
-- Overwrite deleted data - Drive shredder
+- [Overwrite deleted data - Drive shredder](#-overwrite-deleted-data---drive-shredder)
 
-- Prompt here Tools
+- [Prompt here Tools](#prompt-here-tools)
 
   - Command Prompt here
 
@@ -272,7 +272,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
   - Windows Terminal here
 
-- Installation
+- [Installation](#-installation)
 
   - Install all tools
 
@@ -282,7 +282,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
   - Open in Terminal default context menu
 
-- Author
+- [Author]()
 
 [clipboard-icon]: /readme-images/List-in-Clipboard-h32px.png
 
