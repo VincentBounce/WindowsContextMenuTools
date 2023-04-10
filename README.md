@@ -230,7 +230,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 **Vincent Bounce** 🇫🇷
 
-🐦 Twitter [VincentJounce](#https://twitter.com/VincentJounce)
+🐦 Twitter [VincentJounce](https://twitter.com/VincentJounce)
 
 <ul dir="auto">
 
