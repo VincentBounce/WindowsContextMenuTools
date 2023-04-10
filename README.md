@@ -236,7 +236,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 📷 Instagram <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a>
 
-📺 YouTube <a href="https://www.instagram.com/vincentbounce/" rel="nofollow">@VincentBounce</a>
+📺 YouTube <a href="https://www.youtube.com/@VincentBounce/shorts" rel="nofollow">@VincentBounce</a>
 
 </ul>
 
