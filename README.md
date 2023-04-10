@@ -13,7 +13,7 @@ Bundle of best ***Windows shell File Explorer context menu tools*** sorted and o
 
 ---
 
-# 📝Files & folders listing from File Explorer
+# 📝 Files & folders listing from File Explorer
 
 ![Files-folders-listing-from-Windows-File-Explorer-screenshot](/readme-images/Files-folders-listing-from-Windows-File-Explorer-screenshot.png "Files and folders listing from Windows File Explorer")
 
@@ -114,7 +114,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 ---
 
-# 👇*Prompt here* Tools
+# 👇 *Prompt here* Tools
 
 ![Prompt-here-Tools-screenshot](/readme-images/Prompt-here-Tools-screenshot.png "PowerShell terminal called directly from a Windows File Explorer directory")
 
