@@ -225,7 +225,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 | **Vincent Bounce** 🇫🇷 | 🐦 Twitter [@VincentJounce](https://twitter.com/VincentJounce) |
 | :--- | :--- |
-| **📷 Instagram [@VincentBounce](https://www.instagram.com/vincentbounce/)** | **📺 YouTube [@VincentBounce](https://www.youtube.com/@VincentBounce/shorts)** |
+| **📸 Instagram [@VincentBounce](https://www.instagram.com/vincentbounce/)** | **📺 YouTube [@VincentBounce](https://www.youtube.com/@VincentBounce/shorts)** |
 
 ---
 
