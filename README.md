@@ -7,7 +7,7 @@ Bundle of best ***Windows shell File Explorer context menu tools*** sorted and o
 - These commands are written into Windows Registry when you install these tools.
 - No `.exe` nor `.msi` nor `.inf` to install tools. No file copied. Instant install.
 - We recommend optional upgrades like [PowerShell 7 x64 MSI] or [Windows Terminal], because these open-source projects are pushed by *Microsoft*, and will be probably built-in next releases of Windows.
-- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item ➜ *Show more options*. Or select item ➜ `Shift` + `F10`. [Below instructions](#-windows-11-new-context-menu) to remove/restore this Windows 11 extra layer.
+- On **Windows 11**, an extra step is necessary to use these tools: from *File Explorer*, right click on selected item → *Show more options*. Or select item → `Shift` + `F10`. [Below instructions](#-windows-11-new-context-menu) to remove/restore this Windows 11 extra layer.
 
 > Tested on Microsoft Windows 10/11 Pro 64-bits.
 
@@ -72,7 +72,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 - Applies on all external drives, displayed in both *File Explorer* left and right panes. If your drive is **`C:`** or is **not locked** or is **not BitLocker encrypted**, then the tool starts and **ignore the drive**.
 
-- To use it, right click on your BitLocker locked external drive ➜ *Lock BitLocker Drive* ➜ Click *Yes*.
+- To use it, right click on your BitLocker locked external drive → *Lock BitLocker Drive* → Click *Yes*.
 
 💿 To install this tool separately, just run `Lock-BitLocker-Drive.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
@@ -88,7 +88,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 - Applies on all selected files in the *File Explorer* right pane.
 
-- To use it, right click on selected files ➜ *Get file Hash*.
+- To use it, right click on selected files → *Get file Hash*.
 
 💿 To install this tool separately, just run `Get-fileHash.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
@@ -108,7 +108,7 @@ Lists files/folders contained in any folder and displays the list in a temporary
 
 - Applies on all internal and external drives, displayed in both *File Explorer* left and right panes.
 
-- To use it, right click on your external drive ➜ *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
+- To use it, right click on your external drive → *Overwrite deleted data*. When process is done, you'll see 3 full lines of 100 points each one, like screenshot above.
 
 💿 To install this tool separately, just run `Wipe-free-space.reg` and confirm 3 dialog boxes. To install [bundle it's here](#-install-all-tools).
 
@@ -196,7 +196,7 @@ Let you run built-in ***Windows PowerShell*** located in Path Environment `power
 
 ## 💿 Install all tools
 
-- Click *Code* green button above ➜ *Download ZIP*, then extract `WindowsContextMenuTools-main.zip`.
+- Click *Code* green button above → *Download ZIP*, then extract `WindowsContextMenuTools-main.zip`.
 
 - **Run `ALL-Install.cmd` to install all tools automatically.**
 
